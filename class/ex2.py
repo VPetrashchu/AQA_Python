@@ -15,7 +15,7 @@ class Building(Hause):
         self.floor = floor
         
     def display(self):
-        super().display();
+        super().display()
         print(f"floor: {self.floor}")
 
 
@@ -37,17 +37,17 @@ class Cottage(Hause):
         self.pool = Pool(length, width, depth)
         
     def display(self):
-        super().display();
+        super().display()
         
         self.pool.display()
 
 
 
-h1 = Hause("wall", "location", "plane");
-h1.display();
+h1 = Hause("wall", "location", "plane")
+h1.display()
 
 b1 = Building("floor-b", "wall-b", "locatoin-b", "plane-b")
-b1.display();
+b1.display()
 
-c1 = Cottage("len-c", "width-c", "depth-c", "wall-c", "location-c", "plane-c");
+c1 = Cottage("len-c", "width-c", "depth-c", "wall-c", "location-c", "plane-c")
 c1.display()
