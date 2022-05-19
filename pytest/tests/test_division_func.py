@@ -1,4 +1,4 @@
-from test1 import division
+from pytest.root_files.test1 import division
 
 
 def test_division_good():
